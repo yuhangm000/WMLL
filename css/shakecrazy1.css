@@ -1,0 +1,40 @@
+.shake-crazy {
+    -webkit-animation-name: shake-crazy1;
+    -ms-animation-name: shake-crazy1;
+    animation-name: shake-crazy1;
+    -webkit-animation-duration: 100ms;
+    -ms-animation-duration: 100ms;
+    animation-duration: 100ms;
+    -webkit-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -ms-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-delay: 100000s;
+    -ms-animation-delay: 100000s;
+    animation-delay: 100000s;
+    -webkit-animation-play-state: running;
+    -ms-animation-play-state: running;
+    animation-play-state: running
+}
+@-webkit-keyframes shake-crazy1{
+10%{transform:translate(1px, -15px) rotate(-9deg);}20%{transform:translate(4px, -15px) rotate(-4deg);
+}30%{transform:translate(-9px, 3px) rotate(-5deg);}40%{transform:translate(-1px, -11px) rotate(9deg);
+}50%{transform:translate(8px, -19px) rotate(7deg);}60%{transform:translate(11px, 19px) rotate(-1deg);
+}70%{transform:translate(-12px, 10px) rotate(9deg);}80%{transform:translate(-14px, -19px) rotate(9deg);}90%{transform:translate(12px, -15px) rotate(9deg);}0%,100%{transform:translate(0, 0) rotate(0)}
+}
+@-ms-keyframes shake-crazy1 {
+10%{transform:translate(1px, -15px) rotate(-9deg);}20%{transform:translate(4px, -15px) rotate(-4deg);}
+30%{transform:translate(-9px, 3px) rotate(-5deg);}40%{transform:translate(-1px, -11px) rotate(9deg);}
+50%{transform:translate(8px, -19px) rotate(7deg);}60%{transform:translate(11px, 19px) rotate(-1deg);}
+70%{transform:translate(-12px, 10px) rotate(9deg);}80%{transform:translate(-14px, -19px) rotate(9deg);}
+90%{transform:translate(12px, -15px) rotate(9deg);}0%,100%{transform:translate(0, 0) rotate(0)}
+}
+@keyframes shake-crazy1 {
+10%{transform:translate(1px, -15px) rotate(-9deg);}20%{transform:translate(4px, -15px) rotate(-4deg);}
+30%{transform:translate(-9px, 3px) rotate(-5deg);}40%{transform:translate(-1px, -11px) rotate(9deg);}
+50%{transform:translate(8px, -19px) rotate(7deg);}60%{transform:translate(11px, 19px) rotate(-1deg);}
+70%{transform:translate(-12px, 10px) rotate(9deg);}80%{transform:translate(-14px, -19px) rotate(9deg);}
+90%{transform:translate(12px, -15px) rotate(9deg);}0%,100%{transform:translate(0, 0) rotate(0)}
+}
